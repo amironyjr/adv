@@ -1,0 +1,264 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*header section start*/
+
+header{
+    width: 100%;
+    margin: 20px 10px;
+    position: absolute;   
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+.head{
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Poppins', sans-serif;	
+	color: #f5f5f5;
+}
+
+.logo h2{
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.logo p{
+	font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 6px;
+}
+
+.menu ul li a{
+	color: black;
+	font-size: 17px;
+    font-weight: 400;
+    color: #f5f5f5;
+}
+
+.menu ul li a:hover{
+	color: #9b1212;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    margin: 17px;
+}
+
+.btn button{
+    padding: 15px 20px 15px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    border-radius: 25px;
+    color: #f5f5f5;   
+}
+
+.btn button:hover{
+	background: #9b1212;
+	cursor: pointer;
+}
+
+
+/*header section end*/
+
+/*banner section start*/
+
+.banner{
+	width: 100%;
+	background-image: url(../img/banner.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.2);
+	background-blend-mode: soft-light;
+}
+
+.banner-content{
+	color: #f5f5f5;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-content p{
+	font-style: italic;
+    font-size: 32px;
+    letter-spacing: 12px;
+    font-weight: 500;
+    margin: 18px;
+}
+
+.banner-content .line{
+	width: 150px;
+    height: 2px;
+    background-color: #9b1212;
+    margin: 0px auto;
+}
+
+.banner-content h1{
+    font-size: 90px;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+
+.banner-content button{
+    padding: 25px 50px 25px 50px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    background: #9b1212;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+
+.banner-content{
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	align-items: center;
+}
+
+/*banner section end*/
+
+/*testimonial section start*/
+
+.testimonial{
+	width: 100%;
+	background: #f4f5f9;
+	padding: 80px 0px;
+}
+
+.testimonial h4{
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #353535;
+}
+
+.testimonial h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #353535;
+    letter-spacing: 2px;
+}
+
+/*testimonial section end*/
+
+
+/*gallery section start*/
+
+.gallery{
+	width: 100%;
+	padding: 100px 0px;
+	background: white;
+}
+
+.gallery-content h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 42px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	margin: 30px ;
+}
+
+.gallery-content .line{
+	width: 150px;
+    height: 2px;
+    background-color: #9b1212;
+    margin: 25px auto;
+}
+
+.events{
+	display: grid;
+	grid-template-columns: auto auto;
+	text-align: center;
+}
+
+.item-1, .item-2{
+    margin: 35px 27px;
+}
+
+.item-1 img{
+	width: 520px;
+	border-radius: 6px;
+}
+
+.item-2 img{
+	width: 520px;
+	border-radius: 6px;
+} 
+
+.events h6{
+	font-family: 'Open Sans', sans-serif;
+	color: #353535;
+	font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 20px;
+}
+
+.events p{
+	font-family: 'Poppins', sans-serif;
+	color: #353535;
+	font-size: 12px;
+    font-weight: 400;
+    margin: 15px;
+}
+
+.events a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #9b1212;
+}
+
+.shadow{
+    position: relative;
+    z-index: 999;
+}
+
+.shadow img{
+	z-index: 9999;
+}
+
+.box{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #e9e8e8;
+    top: 12px;
+    left: 20px;
+    border-radius: 6px;
+    z-index: -1;
+}
+
+
+
+
+/*gallery section end*/
+
+
+
+
